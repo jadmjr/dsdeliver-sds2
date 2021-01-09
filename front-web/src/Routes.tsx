@@ -1,7 +1,7 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./Home";
-import NavBar from "./Navbar";
-import Orders from "./Orders";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './Home';
+import NavBar from './Navbar';
+import Orders from './Orders';
 
 function Routes() {
     return (
