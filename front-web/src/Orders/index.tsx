@@ -6,8 +6,8 @@ import OrderSummary from './OrderSummary';
 import ProductsList from './ProductsList';
 import StepsHeader from './StepsHeader';
 import './styles.css';
-import { Product } from './types';
-import { OrderLocationData } from './types';
+import { Product } from "../types";
+import { OrderLocationData } from '../types';
 import { checkIsSelected } from './helpers';
 import { toast } from 'react-toastify';
 
