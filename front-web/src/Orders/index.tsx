@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import { fetchProducts, saveOrder } from '../api';
 import Footer from '../Footer';
 import OrderLocation from './OrderLocation';
 import OrderSummary from './OrderSummary';
-import ProductsList from './ProductsList'
-import StepsHeader from './StepsHeader'
-import './styles.css'
+import ProductsList from './ProductsList';
+import StepsHeader from './StepsHeader';
+import './styles.css';
 import { Product } from './types';
 import { OrderLocationData } from './types';
 import { checkIsSelected } from './helpers';

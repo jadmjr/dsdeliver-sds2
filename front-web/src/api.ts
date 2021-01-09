@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { OrderPayload } from './Orders/types'
+import { OrderPayload } from './Orders/types';
 
 
 const API_URL = 'http://localhost:8080';
